@@ -1,0 +1,7 @@
+<%- include("header") -%>
+
+<h2>About page</h2>
+
+<p>The To Do List web application is developed using Node.js, Express, EJS, and Mongoose. It features a home page with instructions: "Welcome to my To Do List", "Write and use the + button to add new To Do", and "<-- Use the checkbox to remove To Do". Users can add tasks using an input field and a "+" button, and remove tasks by clicking checkboxes next to them. Additionally, the application supports creating custom lists by appending paths to the URL, such as `/work`, `/college`, or `/morning-routine`. Each custom list operates independently, allowing users to manage tasks specific to different contexts. The application also includes an About page, accessible via the `/about` path, which provides information about the application. The server-side logic is handled by Node.js and Express, while EJS templates render dynamic content. Mongoose is used to manage task data stored in a MongoDB database, supporting the main task list and any custom lists created by the user.</p>
+
+<%- include("footer") -%>
